@@ -1,0 +1,3 @@
+Data preprocessing
+
+If a household has multiple cars, put them in separate rows
