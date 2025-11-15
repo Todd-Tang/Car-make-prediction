@@ -17,13 +17,7 @@ REQUIRED_COLUMNS = [
     'HHSIZE',       # Household size
     'LIF_CYC',      # Family life cycle
     'HHSTATE',      # Household state (if present)
-    'HHSTFIPS',     # State FIPS (alternative location)
-    'CDIVMSAR',     # Census division / MSA
-    'MSACAT',       # MSA category
     'URBAN',        # Urban indicator (alternative: URBRUR)
-    'mean_age',     # Average age of members (you added this)
-    'num_adults',   # Number of adults
-    'num_kids',     # Number of kids
     'VEHID',        # Vehicle ID
     'VEHTYPE',      # Vehicle type
     'MAKE'          # Vehicle make code
