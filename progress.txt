@@ -4,7 +4,7 @@ If a household has multiple cars, put them in separate rows
 
 Data Preprocessing
 
-Delete ♂:
+Delete nan:
 
 HHFAMINC: -9, -8, -7
 LIF_CYC: -9
@@ -28,4 +28,11 @@ Improvement:
 2. Group states to regions
 
 
-Add CENSUS_R (regions)
+Add:
+CENSUS_R
+HH_RACE, remove -8, -7
+WRKCOUNT
+HOMEOWN, remove -8, -7
+URBANSIZE
+DRVRCNT
+
