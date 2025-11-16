@@ -1,3 +1,31 @@
 Data preprocessing
 
 If a household has multiple cars, put them in separate rows
+
+Data Preprocessing
+
+Delete ♂:
+
+HHFAMINC: -9, -8, -7
+LIF_CYC: -9
+URBAN: -9
+VEHTYPE: -8, -7
+MAKE: -88, -8, 99, XX
+
+Put rare makes to Other
+
+Delete rare types
+Rare type: 05, 06
+
+
+Top-5 gives misleading accuracy
+Use top-1
+
+Accuracy ~17%
+
+Improvement:
+1. Add more features
+2. Group states to regions
+
+
+Add CENSUS_R (regions)
