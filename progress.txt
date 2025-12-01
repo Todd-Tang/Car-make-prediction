@@ -18,14 +18,16 @@ Delete rare types
 Rare type: 05, 06
 
 
-Top-5 gives misleading accuracy
+Change 1. Top-5 gives misleading accuracy
+~ 60%
+
 Use top-1
 
 Accuracy ~17%
 
 Improvement:
 1. Add more features
-2. Group states to regions
+2. Group states to regions of US
 
 
 Add:
