@@ -12,15 +12,32 @@ OUTPUT_CSV  = "filteredvehpub.csv"    # <-- where the cleaned file goes
 
 # Columns you want to keep (exactly as they appear in the data)
 REQUIRED_COLUMNS = [
-    'HOUSEID',      # Household ID
-    'HHFAMINC',     # Income
-    'HHSIZE',       # Household size
-    'LIF_CYC',      # Family life cycle
-    'HHSTATE',      # Household state (if present)
-    'URBAN',        # Urban indicator (alternative: URBRUR)
-    'VEHID',        # Vehicle ID
-    'VEHTYPE',      # Vehicle type
-    'MAKE'          # Vehicle make code
+    # 'HOUSEID',      # Household ID
+    # 'HHFAMINC',     # Income
+    # 'HHSIZE',       # Household size
+    # 'LIF_CYC',      # Family life cycle
+    # 'HHSTATE',      # Household state (if present)
+    # 'URBAN',        # Urban indicator (alternative: URBRUR)
+    # 'VEHID',        # Vehicle ID
+    # 'MAKE'  ,        # Vehicle make code
+    # 'VEHYEAR',      # Vehicle year
+
+    'HOUSEID',
+    'HHFAMINC',
+    'HHSIZE',
+    'LIF_CYC',
+    'CENSUS_R',
+    'URBAN',
+    'VEHID',
+    'DRVRCNT',
+    'MAKE',
+    'HH_RACE',
+    'WRKCOUNT',
+    'HOMEOWN',
+    'URBANSIZE',
+    'VEHYEAR',
+
+
 ]
 
 def main():
